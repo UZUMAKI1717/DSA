@@ -1,7 +1,7 @@
 class Last{
   //Finding last index in this array.
   static int LinearSearch(int arr[],int key){
-    for(int i = arr.length-1;i>=0;i++){
+    for(int i = arr.length-1;i>=0;i--){
       if(key == arr[i]){
         return i;
       }
