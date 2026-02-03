@@ -6,11 +6,12 @@ class First{
         return i;
       }
     }
+    return -1;
   }
 
   public static void main(String args[]){
     int arr[] = {20,25,30,40,50};
-    int key = 30;
+    int key = 50;
     System.out.print(SearchFirstIndex(arr,key));
 
   }
